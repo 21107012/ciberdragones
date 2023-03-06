@@ -19,26 +19,26 @@
                 <div class="card mx-auto" style="width: 30rem; text-align: left;">
                     <div class="card-body">
                         <!-- //formulario -->
-                        <form>
+                        <form action="larespuesta.php" method="post">
                             <div class="mb-3">
                               <label class="form-label">Correo:</label>
-                              <input type="email" class="form-control">
+                              <input type="email" class="form-control" name="correo">
                             </div>
                             <div class="mb-3">
                               <label class="form-label">Nombre:</label>
-                              <input type="text" class="form-control">
+                              <input type="text" class="form-control"name="nombre"> 
                             </div>
                             <div class="mb-3">
                               <label class="form-label">A Paterno:</label>
-                              <input type="text" class="form-control">
+                              <input type="text" class="form-control"name="a_paterno">
                             </div>
                             <div class="mb-3">
                               <label class="form-label">A Materno:</label>
-                              <input type="text" class="form-control">
+                              <input type="text" class="form-control"name=a_materno>
                             </div>
                             <div class="mb-3">
                               <label class="form-label">Password:</label>
-                              <input type="password" class="form-control" >
+                              <input type="password" class="form-control"name="password">
                             </div>
                             <button type="submit" class="btn btn-success btn-lg form-control">Guardar</button>
                         </form>
